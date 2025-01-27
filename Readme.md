@@ -94,16 +94,16 @@ Configured Multer to handle file uploads in the application. This allows users t
 
 ## Milestone 6: User Registration and Authentication
 1. User Creation Endpoint (/create-user):
- Implemented an endpoint to create a new user.
- Validated the email to ensure the user doesn’t already exist.
- Successfully handled file uploads (e.g., avatar) using multer.
+ - Implemented an endpoint to create a new user.
+ - Validated the email to ensure the user doesn’t already exist.
+ - Successfully handled file uploads (e.g., avatar) using multer.
 
  2. Password Hashing:
  Used bcryptjs to hash passwords before saving them to the database, ensuring secure password storage.
 
 4. Error Handling:
-Incorporated centralized error handling using a custom ErrorHandler class.
-Applied catchAsyncErrors middleware to manage asynchronous errors in the routes.
+- Incorporated centralized error handling using a custom ErrorHandler class.
+- Applied catchAsyncErrors middleware to manage asynchronous errors in the routes.
 
 5. User Data Storage:
 Stored user details (e.g., name, email, password, avatar) in MongoDB with encrypted password.
