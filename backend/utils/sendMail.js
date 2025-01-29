@@ -9,13 +9,21 @@ const sendMail = async (options) => {
             service: process.env.SMTP_SERVICE,
             auth: {
                 user: process.env.SMTP_EMAIL,
-                pass: process.env.SMTP_PASSWORD,
-            },
+                pass: process.env.SMTP_PASSWORD
+            }
         });
 
-        // Additional logic for sending email can be added here
+        let mailOptions = {
+            from: process.env.SMTP_EMAIL,
+            to: options.email,
+            subject: options.subject,
+            text: options.message,
+        };
+
+        await transporter.sendMail(mailOptions);
+        console.log('Email sent');
     } catch (error) {
-        console.error("Error sending email:", error);
+        console.error('Error sending email: ', error);
     }
 };
 

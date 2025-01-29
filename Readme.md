@@ -113,3 +113,63 @@ Integrated an email notification system to send a welcome email to the user afte
 
 7. JWT Token Generation:
 Added a method to generate JWT tokens upon user login (for future use in authentication routes).
+
+---
+
+## Milestone 7 : 
+
+1. Created a Login Endpoint
+
+- Accepts user credentials (email/username and password).
+
+- Retrieves the corresponding user from the database.
+
+- Returns an error message if the user does not exist.
+
+2. Implemented Password Validation
+
+- Used bcrypt to hash the entered password.
+
+- Compared it with the stored hashed password for authentication.
+
+- If the passwords match, authentication is successful; otherwise, an error is returned.
+
+---
+
+
+## Milestone 8: 
+
+## Updates & Changes
+
+1. Created a Product Card Component :
+
+- Designed a reusable ProductCard component.
+
+- The card displays product details such as:
+
+    - Product Image
+
+    - Product Name
+
+    - Price
+
+    - Description
+
+    - Add to Cart Button
+
+- Used props to pass dynamic product data.
+
+
+2. Implemented the Homepage Layout
+
+- Created a HomePage component to display multiple product cards.
+
+- Used array mapping to iterate over a product list and render cards dynamically.
+
+- Ensured a clean and structured layout for better UI/UX.
+
+3. Updated Routes in App.jsx
+
+- Integrated HomePage into the routing system.
+
+- Ensured seamless navigation across the application.
