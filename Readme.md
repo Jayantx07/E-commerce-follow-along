@@ -159,8 +159,7 @@ Added a method to generate JWT tokens upon user login (for future use in authent
 
 - Used props to pass dynamic product data.
 
-
-2. Implemented the Homepage Layout
+2. Implemented the Homepage Layout  
 
 - Created a HomePage component to display multiple product cards.
 
@@ -173,3 +172,25 @@ Added a method to generate JWT tokens upon user login (for future use in authent
 - Integrated HomePage into the routing system.
 
 - Ensured seamless navigation across the application.
+
+---
+
+## Milestone : 9
+
+Today, we will create a frontend form for taking products input. Let’s dive in and understand what this all means!
+
+Learning Goals 🎯
+By the end of this milestone, you will:
+
+Learn how to create a form that will take all the details of product
+Learn how to take multiple images as input.
+Why Create Product form?
+Here we will create an form to input all the details of product.
+This details will be eventually saved in database and will be displayed on products home page we created in previous milestone.
+Steps for Milestone 9📝
+Create the form for products
+
+This form will take multiple product images images as input
+
+Note:- This lesson will help you in understanding the basic creating of products please feel free to experiment on adding more features like creating an admin access and allow only admin to upload products or create and shop profile and a user with only shop profile can upload.
+
