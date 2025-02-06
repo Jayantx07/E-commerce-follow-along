@@ -222,3 +222,45 @@ In this milestone, we focused on defining the structure of product data and crea
 - Admin Access: Only admin users can create new products.
 - Shop Profiles: Restrict product uploads to users with a registered shop profile.
 - Image Upload Handling: Implement a cloud-based solution (e.g., Cloudinary, AWS S3) for better image management. make this short
+
+---
+
+## Milestone 11 - Dynamic Home Page with Product Data
+
+### Overview
+#### In this milestone, we will make the home page dynamic by fetching and displaying all products stored in MongoDB.
+
+- We will write a backend API endpoint to retrieve product data.
+- The frontend will call this API and display the products dynamically using the ProductCard component.
+#### Learning Goals 🎯
+By completing this milestone, you will learn:
+- ✅ How to write an API endpoint to fetch data from MongoDB.
+- ✅ How to receive and handle data on the frontend.
+- ✅ How to display data dynamically using components.
+
+Steps to Complete Milestone 11 📝
+
+1. Backend: Create an API Endpoint
+- Create an API route in Express.js to fetch all products from MongoDB.
+- Use Mongoose to retrieve the data.
+- This API fetches all products and sends them in JSON format.
+- The frontend will call this API to get the list of products.
+
+
+2. Frontend: Fetch Product Data
+- Create a function to fetch product data from the backend using fetch() or Axios.
+- Store the data in a state variable.
+- useEffect calls the API when the page loads.
+- setProducts stores the fetched data.
+- map() loops through the products and passes each to ProductCard.
+
+
+3. Display Products Dynamically
+- The ProductCard component will receive product data as a prop and display it.
+- Displays product image, name, and price dynamically.
+
+#### Final Outcome 🎉
+- ✅ The backend API sends all product data.
+- ✅ The frontend fetches this data.
+- ✅ Products are dynamically displayed using the ProductCard component.
+
