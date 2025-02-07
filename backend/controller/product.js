@@ -3,8 +3,9 @@ const mongoose = require("mongoose");
 const Product = require("../model/product");
 const User = require("../model/user");
 const router = express.Router();
-const path = require('path');
 const { pupload } = require("../multer");
+const path = require('path');
+
 const validateProductData = (data) => {
   const errors = [];
   if (!data.name) errors.push("Product name is required");
@@ -21,11 +22,13 @@ router.post(
   "/create-product",
   pupload.array("images", 10),
   async (req, res) => {
-    console.log("HEllos");
+    console.log("🛒 Creating product");
     const { name, description, category, tags, price, stock, email } = req.body;
+    // Map uploaded files to accessible URLs
     const images = req.files.map((file) => {
-      return `/products/${Path.basename(file.path)}`;
-    }); // Get file paths
+      return `/products/${path.basename(file.path)}`;
+    });
+    // Validate input data
     const validationErrors = validateProductData({
       name,
       description,
@@ -71,7 +74,6 @@ router.post(
   }
 );
 
-
 // Route: Get all products
 router.get("/get-products", async (req, res) => {
   try {
@@ -85,13 +87,31 @@ router.get("/get-products", async (req, res) => {
       }
       return product;
     });
-
     res.status(200).json({ products: productsWithFullImageUrl });
   } catch (err) {
-    console.error("Server error:", err);
+    console.error(" Server error:", err);
     res.status(500).json({ error: "Server error. Could not fetch products." });
   }
 });
 
+router.get('/my-products', async (req, res) => {
+  const { email } = req.query;
+  try {
+      const products = await Product.find({ email });
+      const productsWithFullImageUrl = products.map(product => {
+          if (product.images && product.images.length > 0) {
+              product.images = product.images.map(imagePath => {
+                  return imagePath;
+              });
+          }
+          return product;
+      });
+      res.status(200).json({ products: productsWithFullImageUrl });
+  } catch (err) {
+      console.error(' Server error:', err);
+      res.status(500).json({ error: 'Server error. Could not fetch products.' });
+  }
+}
+);
 
 module.exports = router;

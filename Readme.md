@@ -238,7 +238,7 @@ By completing this milestone, you will learn:
 - ✅ How to receive and handle data on the frontend.
 - ✅ How to display data dynamically using components.
 
-Steps to Complete Milestone 11 📝
+### Steps to Complete Milestone 11 📝
 
 1. Backend: Create an API Endpoint
 - Create an API route in Express.js to fetch all products from MongoDB.
@@ -264,3 +264,37 @@ Steps to Complete Milestone 11 📝
 - ✅ The frontend fetches this data.
 - ✅ Products are dynamically displayed using the ProductCard component.
 
+---
+
+# Milestone 12: My Products Page
+
+## Overview
+In this milestone, we will create a "My Products" page that displays all products added by a user based on their email. We will accomplish this by writing a backend endpoint to fetch products from MongoDB filtered by the user's email and dynamically displaying them on the frontend using the previously created product card component.
+
+## Learning Goals 🎯
+By the end of this milestone, you will:
+
+- Learn how to write an endpoint to filter and send data from MongoDB based on a user's email.
+- Understand how to fetch and receive data on the frontend.
+- Display data dynamically using a product card component.
+
+## Steps to Complete Milestone 12 📝
+
+### Backend:
+1. **Create an endpoint** in your backend application that retrieves all products associated with a user's email from MongoDB.
+2. **Filter products** based on the email provided in the request.
+3. **Send the filtered data** as a response to the frontend.
+
+### Frontend:
+1. **Write a function** to fetch the filtered product data from the backend.
+2. **Process the received data** and pass it to the product card component.
+3. **Dynamically display** the products on the "My Products" page.
+
+## Notes
+- This lesson will help in understanding how to filter data based on specific constraints and send it to the client efficiently.
+- Ensure proper error handling for scenarios where no products are found for a given email.
+
+## Next Steps
+- Enhance the UI with better styling and user experience.
+- Implement pagination if needed for better performance.
+- Add authentication checks to ensure only the logged-in user's products are displayed.
