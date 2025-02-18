@@ -383,3 +383,19 @@ By the end of this milestone, you will learn:
 
 
 ---
+
+# Cart Functionality - Milestone 19
+
+## Objective 🎯
+By the end of this milestone, we will:
+- Create a frontend cart page to display products.
+- Add functionality to increase and decrease product quantities using `+` and `-` buttons.
+- Create a backend endpoint to update the quantity of products inside the cart.
+
+## Steps to Complete 📝
+
+**Create the Frontend Cart Page**
+   - Display a list of products in the cart.
+   - For each product, show the `+` and `-` buttons to modify the quantity.
+   - After modifying the quantity, the changes should be reflected in the UI and sent to the backend for persistence.
+
