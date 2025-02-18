@@ -399,3 +399,17 @@ By the end of this milestone, we will:
    - For each product, show the `+` and `-` buttons to modify the quantity.
    - After modifying the quantity, the changes should be reflected in the UI and sent to the backend for persistence.
 
+   ---
+
+## Overview
+This project aims to create a profile page for the user, displaying their personal information fetched from a backend endpoint. It includes the user's profile photo, name, email, and addresses. If no address is available, a message is shown. Additionally, users can add an address using a button.
+
+## Features Implemented
+1. **Backend Endpoint:**
+   - Created an endpoint to send all user data, including profile details and addresses, via email.
+   
+2. **Frontend Profile Page:**
+   - Displayed the profile photo, name, and email in a dedicated section.
+   - Displayed addresses in a separate section, with an "Add Address" button.
+   - If no address is found, displayed the message: "No address found."
+
