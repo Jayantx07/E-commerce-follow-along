@@ -413,3 +413,38 @@ This project aims to create a profile page for the user, displaying their person
    - Displayed addresses in a separate section, with an "Add Address" button.
    - If no address is found, displayed the message: "No address found."
 
+---
+
+# Milestone 21: Address Form Page
+
+## Learning Goals 🎯
+By the end of this milestone, you will:
+- Create a frontend form to take an address input.
+- Capture fields like country, city, address1, address2, zip code, and address type.
+- Implement a state to store the input address.
+- Navigate to the form page when clicking "Add Address" in the profile.
+
+---
+
+## Steps for Milestone 21 📝
+
+### 1️⃣ Create Address Form Frontend Page
+- Design a form with input fields for:
+  - `Country`
+  - `City`
+  - `Address Line 1`
+  - `Address Line 2`
+  - `ZIP Code`
+  - `Address Type` (e.g., Home, Work, Other)
+- Use React's `useState` to manage form input values.
+
+### 2️⃣ Manage Address State
+- Use React state to store the address inputs.
+- Ensure real-time updating of input values.
+
+### 3️⃣ Implement Navigation
+- When clicking "Add Address" in the profile section:
+  - Navigate to the newly created address form page.
+  - Use React Router for navigation.
+
+---
