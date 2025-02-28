@@ -481,3 +481,37 @@ Use **Postman** or any API testing tool:
 
 ---
 
+# Milestone 23 - Implementing Place Order & Address Selection 🚀
+
+## Overview  
+In this milestone, we will enhance the cart functionality by adding a **Place Order** button, implementing an **Address Selection** page, and defining the **Order Schema** in the backend.
+
+## Learning Goals 🎯  
+By the end of this milestone, you will:  
+✅ Add a **Place Order** button inside the cart page.  
+✅ Create a **Select Address** page where users can choose a delivery address.  
+✅ Write a **Mongoose schema** to store order details.  
+✅ Implement a backend endpoint to fetch user addresses.  
+
+## Steps to Complete This Milestone 📝  
+
+1. **Add Place Order Button:**  
+   - Inside the cart page, add a "Place Order" button.  
+   - Clicking this button should navigate users to the Select Address page.  
+
+2. **Create Select Address Page:**  
+   - Display all saved addresses of the user.  
+   - Allow users to select a delivery address before proceeding.  
+
+3. **Implement Backend API for Addresses:**  
+   - Create an endpoint to fetch all addresses associated with a user.  
+
+4. **Define Order Schema:**  
+   - Write a Mongoose schema to store order-related details in the database.  
+
+## Key Takeaways 📌  
+- This milestone focuses on integrating address selection into the checkout process.  
+- Helps in understanding how to **navigate between pages**, **handle user selections**, and **store order details** in the backend. 
+
+---
+
