@@ -448,3 +448,36 @@ By the end of this milestone, you will:
   - Use React Router for navigation.
 
 ---
+
+# Milestone 22: Storing User Address in Database 🚀
+
+## Overview 📝
+In this milestone, we will create a backend endpoint that receives the user's address from the frontend and stores it in the `address` array inside the user profile collection in the database.
+
+## Learning Goals 🎯
+By the end of this milestone, you will:
+- Create a backend endpoint to store user addresses.
+- Modify the user schema to include an `address` array.
+- Implement a function to update the database with the new address.
+
+## Steps to Follow 🏗️
+
+### 1️⃣ Modify User Schema
+Ensure the user schema in your database has an `address` array:
+
+### 2️⃣ Create Backend Endpoint
+Add an API route to handle address storage in `routes/userRoutes.js`:
+
+
+### 3️⃣ Connect the Route in `server.js`
+Ensure this route is connected in your `server.js`:
+
+
+### 4️⃣ Test the Endpoint
+Use **Postman** or any API testing tool:
+- **Method:** `POST`
+- **URL:** `http://localhost:5000/api/users/add-address`
+- **Body (JSON):**
+
+---
+
