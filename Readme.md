@@ -515,3 +515,37 @@ By the end of this milestone, you will:
 
 ---
 
+# Milestone 24 - Order Confirmation Page 🚀
+
+## Overview  
+In this milestone, we will create an **Order Confirmation Page** that displays the ordered products, selected delivery address, and total price details before finalizing the order.
+
+## Learning Goals 🎯  
+By the end of this milestone, you will:  
+✅ Create an **Order Confirmation Page**.  
+✅ Display the **ordered products** with their details.  
+✅ Show the **selected delivery address**.  
+✅ Calculate and display the **total cart value**.  
+✅ Add a **Place Order** button to finalize the order.  
+
+## Steps to Complete This Milestone 📝  
+
+1. **Display Ordered Products:**  
+   - List all products being ordered along with their details.  
+
+2. **Show Selected Delivery Address:**  
+   - Display the address the user chose for delivery.  
+
+3. **Calculate Total Cart Value:**  
+   - Show the total price based on the products in the cart.  
+
+4. **Add a Place Order Button:**  
+   - This button will finalize the order and proceed to the next step.  
+
+## Key Takeaways 📌  
+- This milestone focuses on enhancing the checkout experience.  
+- Helps in understanding **how to display order details dynamically** and **finalize the order process**.  
+
+Keep coding and refining your e-commerce journey! 🚀  
+
+---
