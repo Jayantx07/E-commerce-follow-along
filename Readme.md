@@ -549,3 +549,25 @@ By the end of this milestone, you will:
 Keep coding and refining your e-commerce journey! 🚀  
 
 ---
+
+# Milestone 25 - Order Placement API 📝
+
+## Steps to Implement
+
+1. **Create an Endpoint:**
+   - Develop an endpoint that accepts product details, user information, and address details.
+
+2. **Retrieve User ID:**
+   - Extract the user's email from the request data.
+   - Use this email to fetch the corresponding `_id` from the MongoDB `users` collection.
+
+3. **Store Order Details:**
+   - For each product, create a unique order entry with the same address.
+   - Use the existing `Order` schema to store these details in the MongoDB `orders` collection.
+
+### Key Notes
+✅ Efficient endpoint design for placing orders.  
+✅ Ensures proper data structure and storage.  
+✅ Enhances understanding of MongoDB data handling and endpoint creation.  
+
+---
