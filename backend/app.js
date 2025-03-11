@@ -6,7 +6,7 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 const product= require('./controller/product')
 const path=require('path')
-const orders = require('./controller/order');
+const orders = require('./controller/orders');
 
 app.use(express.json());
 app.use(cookieParser());
