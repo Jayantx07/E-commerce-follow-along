@@ -602,3 +602,22 @@ By the end of this milestone, you will be able to:
 
 ---
 
+# Milestone 28
+
+## Learning Goals 🎯
+By the end of this milestone, you will be able to:
+- Add a cancel button to the `My Orders` page to cancel placed orders.
+
+## Steps to Follow 📝
+1. **Add a Cancel Button:**
+   - In the `myorders.jsx` page, add a `Cancel Order` button for each order.
+   - If the order is already canceled, do not display the cancel button.
+
+2. **Create a Cancel Endpoint:**
+   - Develop an endpoint that receives the `order-id`.
+   - Fetch the order using this ID, mark its status as `Canceled`, and save the updated data.
+
+## Outcome
+This milestone will enhance your understanding of implementing order cancellation functionality in a user-friendly way. 🚀
+
+---
