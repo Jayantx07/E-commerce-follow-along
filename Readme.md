@@ -583,3 +583,22 @@ Keep coding and refining your e-commerce journey! 🚀
 This endpoint will help you retrieve all orders for a specific user.
 
 ---
+
+# Milestone 27 - My Order Page
+
+## Learning Goals 🎯
+By the end of this milestone, you will be able to:
+- Create a frontend page to display all user orders.
+
+## Steps to Follow 📝
+1. **Create a `My Orders` Page:**
+   - Design a new page named `myorders.jsx`.
+
+2. **Send a GET Request.**
+
+3. **Display User Orders.**
+
+4. **Adding it's Navigation Link to Navbar.**
+
+---
+
