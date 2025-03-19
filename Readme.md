@@ -621,3 +621,10 @@ By the end of this milestone, you will be able to:
 This milestone will enhance your understanding of implementing order cancellation functionality in a user-friendly way. 🚀
 
 ---
+
+### Milestone 29: Integrated online payments.
+- Created an PayPal account on PayPal developer dashboard
+= Created payment page in order confirmation page where one is COD and another is online payment.
+- Created radio buttons to select COD or online payment and when we click on online payment PayPal button is displayed.
+
+---
