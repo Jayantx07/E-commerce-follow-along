@@ -628,3 +628,28 @@ This milestone will enhance your understanding of implementing order cancellatio
 - Created radio buttons to select COD or online payment and when we click on online payment PayPal button is displayed.
 
 ---
+
+# Milestone 30: PayPal API Integration 🚀
+
+## Learning Goals 🎯
+By the end of this milestone, you will:
+- Learn how to use the **PayPal API**.
+- Integrate **online payments** into your application.
+
+## Steps to Complete 📝
+1. **Create a PayPal Account** & get your **UserID** inside the **sandbox account** (from Milestone 29).
+2. Implement **online payment** using the PayPal API with the **client key** you created earlier.
+3. Install the required package:
+   ```sh
+   npm install @paypal/react-paypal-js
+   ```
+4. Use the `PayPalScriptProvider` component to display **online payment methods** (credit/debit card, PayPal, etc.).
+5. Follow the **official PayPal documentation** for **ReactJS** integration.
+
+## Submission Guidelines 📥
+✅ Push your code to **GitHub**.
+✅ Ensure your repository is **publicly accessible**.
+✅ Update the **README.md** summarizing your progress for **Milestone 30**.
+✅ Submit your **repository link** in the assignment submission section.
+
+---
