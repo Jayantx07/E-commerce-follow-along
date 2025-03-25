@@ -653,3 +653,10 @@ By the end of this milestone, you will:
 ✅ Submit your **repository link** in the assignment submission section.
 
 ---
+
+### Milestone 31: Implemented redux store
+- created an new folder called store with two files store.js and userActions.js.
+- stores user mail inside global state.
+= In store.js file configured an store with userReducer function that will handle global user email state.
+- In userActions.js file wrote an function called setEmail that will help in storing email state inside global state.
+---
