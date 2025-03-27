@@ -681,3 +681,24 @@ By the end of this milestone, you will:
 This lesson will help you **understand Redux** and how to efficiently **manage global state** in your application. 🚀
 
 ---
+
+# Milestone 33 - JWT Token & Cookies
+
+## 🎯 Learning Goals
+By the end of this milestone, you will:
+- Learn how to **create a JWT token**.
+- Store the **token inside a cookie**.
+
+## 📝 Steps for Milestone 33
+
+1️⃣ Install the `jsonwebtoken` package using NPM.
+
+2️⃣ Use the `sign` method to create a JWT token with mail and ID.
+
+3️⃣ Set an expiration time for the token using `maxAge`.
+
+4️⃣ Add the cookie inside the response to store it in the browser.
+
+✅ Now, the JWT token is **created** and **stored in a cookie** inside the browser! 🚀
+
+---
