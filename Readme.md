@@ -659,4 +659,25 @@ By the end of this milestone, you will:
 - stores user mail inside global state.
 = In store.js file configured an store with userReducer function that will handle global user email state.
 - In userActions.js file wrote an function called setEmail that will help in storing email state inside global state.
+
+---
+
+# Milestone 32 - Global State Management with Redux
+
+## Hey Kalvians! 👋
+
+## 🎯 Learning Goals
+By the end of this milestone, you will:
+- Understand how to use **Redux** for **global state management**.
+- Learn to **store the mail in the global state** using the `dispatch` method.
+- Access the stored mail across all pages using `useSelector`.
+
+### 1️⃣ Store Mail in Global State (Login Page)
+- Use the `dispatch` method in the **Login page** to store the user's email in the global state.
+
+### 2️⃣ Access Mail in Other Pages
+- Use `useSelector` in all remaining pages to **retrieve the email** stored in the global state.
+
+This lesson will help you **understand Redux** and how to efficiently **manage global state** in your application. 🚀
+
 ---
